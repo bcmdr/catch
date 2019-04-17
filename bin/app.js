@@ -4,10 +4,10 @@
 const fs = require('fs');
 
 // File Name
-const defaultFilename = 'catch-notes';
+const defaultFilename = 'notes';
 const fileformat = 'txt';
 const inputFilename = process.argv[2];
-const filename = inputFilename ? `catch-${inputFilename}` : defaultFilename;
+const filename = inputFilename ? inputFilename : defaultFilename;
 const file = filename + '.' + fileformat;
 
 // Readline API
