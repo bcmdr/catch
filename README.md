@@ -4,14 +4,14 @@ Capture your thoughts in the command line.
 
 ## Usage
 
-Catch runs in the command line, creating a minimalist writing experience for taking short notes. What you type is captured line by line into a `notes-catch.txt` file in whatever directory Catch is ran within. 
+Catch runs in the command line, creating a minimalist writing experience for taking short notes. What you type is captured line by line into a `notes.txt` file in the current directory. 
 
-### Create a 'notes-catch.txt' file or append to it. 
+### Create or append to a 'notes.txt' and prompt for text entry.
 ```
 catch
 ```
 
-### Create a '{title}-catch.txt' file or append to it. 
+### Create or append a '{filename}.txt' file and prompt for text entry.
 ```
-catch {title}
+catch {filename}
 ```
