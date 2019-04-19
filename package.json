@@ -1,10 +1,12 @@
 {
   "name": "@bcmdr/catch",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Capture your thoughts in the command line.",
   "main": "app.js",
   "preferGlobal": true,
-  "bin": { "catch": "bin/app.js" },
+  "bin": {
+    "catch": "bin/app.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
